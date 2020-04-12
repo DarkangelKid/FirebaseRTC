@@ -8,6 +8,8 @@ const configuration = {
         'stun:stun2.l.google.com:19302',
       ],
     },
+    { urls: 'stun:stun.services.mozilla.com' }, 
+    { urls: 'turn:numb.viagenie.ca', 'credential': 'lapth82@gmail.com', 'username': 'lapth82@gmail.com' }
   ],
   iceCandidatePoolSize: 10,
 };
